@@ -9,12 +9,14 @@ public class MemberHashSetTest {
 		MemberHashSet memberHashSet = new MemberHashSet();
 		
 		Member2 member1 = new Member2(1000,"윤영훈"); 
+		Member2 member7 = new Member2(1000,"윤영훈"); 
 		Member2 member2 = new Member2(1001,"영훈"); 
 		Member2 member3 = new Member2(1002,"윤훈"); 
 		Member2 member4 = new Member2(1003,"윤"); 
 		
 //		memberLinkedList.showAllMember();
 		memberHashSet.addMember(member1);
+		memberHashSet.addMember(member7);
 		memberHashSet.addMember(member2);
 		memberHashSet.addMember(member3);
 		memberHashSet.addMember(member4);
